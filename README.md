@@ -41,4 +41,4 @@ Collect data for 2 years from similar models across different manufacturing comp
 ### Test
 I would use a Multi Linear Regression test as we have multiple independent variables and are trying to predict if the independent variables are factors in determining the dependent variable.
 ### Data 
-We need to collect data for each metric for each similar model across different manufacturing companies.
+We need to collect data for each metric for each similar model across different manufacturing companies. We need to collect the selling price, mpg, maintenance cost (per year), safety rating, AWD, and packages for each car model and the MechaCar.
