@@ -1,4 +1,5 @@
 # MechaCar Statistical Analysis
+![R Code](MechaCarChallenge.R)
 ## Linear Regression to Predict MPG
 ![Linear Regression](Images/LinearRegression.PNG)
 ### Model:
