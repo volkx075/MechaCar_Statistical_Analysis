@@ -21,7 +21,7 @@ We can see above that the mean of PSI is 1498.78 and the p-value is 0.06028. The
 1. Lot 1: We can see that the mean is 1500 and the p-value is 1. The p-value is clearly higher than the significance level of 0.05, therefore, we can fail to reject the null hypotheses. This means there is no significant difference between the sample mean and the true mean of 1500 for Lot 1.
 2. Lot 2: We can see that the mean is 1500.2 and the p-value is 0.6072. The p-value is clearly higher than the significance level of 0.05, therefore, we can fail to reject the null hypotheses. This means there is no significant difference between the sample mean and the true mean of 1500 for Lot 2.
 3. Lot 3: We can see that the mean is 14.96.14 and the p-value is 0.04168. The p-value is lower than the significance level of 0.05, therefore, we reject the null hypotheses. This means there is a difference between the sample mean and the true mean of 1500 for Lot 3. 
-4. Lot 3 is the only one where we had to reject the null hypothesis. This means something is going on with Lot 3's production. The production needs to be reviewed to figure out why it is not meeting quality criteria.
+4. Lot 3 is the only one where we had to reject the null hypothesis. This means something is going on with Lot 3's production. The production needs to be reviewed to figure out why it is not meeting quality criteria.\
 ![T-test Lot 1](Images/t-test_lot1.PNG)\
 ![T-test Lot 2](Images/t-test_lot2.PNG)\
 ![T-test Lot 3](Images/t-test_lot3.PNG)
