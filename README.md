@@ -8,7 +8,7 @@
 From performing linear regression on the MechaCar_mpg.csv, we can draw conclusions:
 1. Vehicle length and ground clearance have a non-random amount of variance to the mpg values. Therefore, the vehicle length and ground clearance have a significant impact on the mpg. Whereas, vehicle weight, spoiler angle, and AWD have a random amount of variance to the mpg values because their p-values are higher
 2. We know from our results above that our p-value for this model is 5.35e-11. The p-value is significantly smaller than the significance level of 0.05%. This means we can reject our null hypotheses, therefore, meaning that the slope of the linear model is not 0.
-3.  We know our R-squared value is 0.7149 which is close to the value 1. This means the data has a strong correlation and can predict the model effectively.
+3.  We know our multiple R-squared value is 0.7149 which is close to the value 1. This means the data has a strong correlation and can predict the model effectively.
 ## Summary Statistics on Suspension
 ![Total Summary](Images/total_summary.PNG)
 ![Lot Summary](Images/lot_summary.PNG)
