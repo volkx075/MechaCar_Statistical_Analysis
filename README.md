@@ -26,3 +26,18 @@ We can see above that the mean of PSI is 1498.78 and the p-value is 0.06028. The
 ![T-test Lot 2](Images/t-test_lot2.PNG)\
 ![T-test Lot 3](Images/t-test_lot3.PNG)
 ## Study Design: MechaCar vs Competition
+### Metrics
+Collect data for 2 years from similar models across different manufacturing companies using the following metrics:
+* Selling Price: Dependent Variable
+* MPG: Independent Variable
+* Maintenance Cost (per year): Independent Variable
+* Safety Rating: Independent Variable
+* AWD: Independent Variable
+* Packages: Independent Variable
+### Hypothesis
+* Null Hypothesis: The MechaCar is priced accurately based on the key factors (metrics).
+* Alternative Hypothesis: The MechaCar is not priced accurately based on the key factors.
+### Test
+I would use a Multi Linear Regression test as we have multiple independent variables and are trying to predict if the independent variables are factors in determining the dependent variable.
+### Data 
+We need to collect data for each metric for each similar model across different manufacturing companies.
