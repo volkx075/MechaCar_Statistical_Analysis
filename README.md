@@ -11,6 +11,7 @@ From performing linear regression on the MechaCar_mpg.csv, we can draw conclusio
 ## Summary Statistics on Suspension
 ![Total Summary](Images/total_summary.PNG)
 ![Lot Summary](Images/lot_summary.PNG)
+### Summary:
 From design specifications we know that the variance of the suspension coils cannot be higher than 100 pounds per square inch. From our tables above, we can see that both Lot 1 and Lot 2's variances are lower than 100 pounds per square inch (0.980 and 7.47 respectively). Lot 3's variance is higher than 100 pounds per square inch. The variance is 170.286 pounds per square inch. Therefore, the current data for Lot 3 does not meet the design specification individually. However, the total variance (all lots together) is 62.29 pounds per square inch which is lower than 100. The current data for all manufacturing lots in total does meet the the design specification.
 ## T-Tests on Suspension Coils
 
