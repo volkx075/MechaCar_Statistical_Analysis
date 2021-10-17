@@ -14,5 +14,15 @@ From performing linear regression on the MechaCar_mpg.csv, we can draw conclusio
 ### Summary:
 From design specifications we know that the variance of the suspension coils cannot be higher than 100 pounds per square inch. From our tables above, we can see that both Lot 1 and Lot 2's variances are lower than 100 pounds per square inch (0.980 and 7.47 respectively). Lot 3's variance is higher than 100 pounds per square inch. The variance is 170.286 pounds per square inch. Therefore, the current data for Lot 3 does not meet the design specification individually. However, the total variance (all lots together) is 62.29 pounds per square inch which is lower than 100. The current data for all manufacturing lots in total does meet the the design specification.
 ## T-Tests on Suspension Coils
-
+### T-Test across all manufacturing lots
+![T-test across all](Images/t-test_across_all.PNG)\
+We can see above that the mean of PSI is 1498.78 and the p-value is 0.06028. The p-value is higher than the significance level of 0.05, therefore, we can fail to reject the null hypothesis. This means that there is no significant difference between the sample mean and the true mean of 1500.
+### T-Tests for each manufacturing lots
+1. Lot 1: We can see that the mean is 1500 and the p-value is 1. The p-value is clearly higher than the significance level of 0.05, therefore, we can fail to reject the null hypotheses. This means there is no significant difference between the sample mean and the true mean of 1500 for Lot 1.
+2. Lot 2: We can see that the mean is 1500.2 and the p-value is 0.6072. The p-value is clearly higher than the significance level of 0.05, therefore, we can fail to reject the null hypotheses. This means there is no significant difference between the sample mean and the true mean of 1500 for Lot 2.
+3. Lot 3: We can see that the mean is 14.96.14 and the p-value is 0.04168. The p-value is lower than the significance level of 0.05, therefore, we reject the null hypotheses. This means there is a difference between the sample mean and the true mean of 1500 for Lot 3. 
+4. Lot 3 is the only one where we had to reject the null hypothesis. This means something is going on with Lot 3's production. The production needs to be reviewed to figure out why it is not meeting quality criteria.
+![T-test Lot 1](Images/t-test_lot1.PNG)\
+![T-test Lot 2](Images/t-test_lot2.PNG)\
+![T-test Lot 3](Images/t-test_lot3.PNG)
 ## Study Design: MechaCar vs Competition
