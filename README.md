@@ -39,6 +39,6 @@ Collect data for 2 years from similar models across different manufacturing comp
 * Null Hypothesis: The MechaCar is priced accurately based on the key factors (metrics).
 * Alternative Hypothesis: The MechaCar is not priced accurately based on the key factors.
 ### Test
-I would use a Multi Linear Regression test as we have multiple independent variables and are trying to predict if the independent variables are factors in determining the dependent variable.
+I would use a Multiple Linear Regression test as we have multiple independent variables and are trying to predict if the independent variables are factors in determining the dependent variable.
 ### Data 
 We need to collect data for each metric for each similar model across different manufacturing companies. We need to collect the selling price, mpg, maintenance cost (per year), safety rating, AWD, and packages for each car model and the MechaCar.
